@@ -5,6 +5,7 @@ import HelloWorld from './components/HelloWorld';
 // Aula 3 Terceito componente props
 import SayMayName from './components/sayMayName';
 import Pessoa from './components/Pessoa';
+import List from './components/List';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         idade='35'
         foto="https://via.placeholder.com/150"
         />
-        
+        <List/>
     </div>
   );
 }
