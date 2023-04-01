@@ -9,7 +9,7 @@ function HelloWorld() {
     // Criando JSX
     return (
 
-        <div>
+        <div className="Aulas">
 
             <Frase />
             <h1>Meu primeiro componente(01).</h1>

@@ -9,7 +9,10 @@ import Pessoa from './components/Pessoa';
 function App() {
   return (
     <div className="App">
-        <h1>Meu primeiro projeto em React</h1>
+        <nav className='Nav'>
+        <h1>Componente raiz</h1>
+
+        </nav>
         <HelloWorld />
 
         <SayMayName name={'jonas'}/>
